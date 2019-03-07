@@ -1,0 +1,5 @@
+qubits 5
+
+x q0
+cnot q0, q4
+x q0

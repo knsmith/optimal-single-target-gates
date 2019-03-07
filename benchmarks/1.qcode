@@ -1,0 +1,19 @@
+qubits 3
+
+x q2
+h q2
+t q0
+t q1
+t q2
+cnot q1, q0
+cnot q2, q1
+cnot q0, q2
+tdag q1
+cnot q0, q1
+tdag q0
+tdag q0
+t q2
+cnot q2, q1
+cnot q0, q2
+cnot q1, q0
+h q2

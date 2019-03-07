@@ -1,0 +1,26 @@
+l0 W i0 o0
+l1 W i1 o1
+l2 W i2 o2
+l3 W i3 o3
+l4 W i4 o4
+l4 H
+l1 +l0
+l1 +l4
+l0 +l4
+l0 +l1
+l0 G {$T^\dagger$}
+l1 G {$T^\dagger$}
+l4 G {$T$}
+l1 +l0
+l4 +l0
+l4 +l1
+l0 +l4
+l1 G {$T$}
+l0 G {$T$}
+l4 G {$T^\dagger$}
+l4 +l1
+l1 +l4
+l1 +l0
+l1 G {$T$}
+l4 +l1
+l4 H

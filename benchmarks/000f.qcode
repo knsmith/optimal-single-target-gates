@@ -1,0 +1,23 @@
+qubits 5
+
+h q4
+cnot q1, q0
+cnot q1, q4
+cnot q0, q4
+cnot q0, q1
+tdag q0
+tdag q1
+t q4
+cnot q1, q0
+cnot q4, q0
+cnot q4, q1
+cnot q0, q4
+t q1
+t q0
+tdag q4
+cnot q4, q1
+cnot q1, q4
+cnot q1, q0
+t q1
+cnot q4, q1
+h q4

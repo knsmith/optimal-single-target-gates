@@ -1,0 +1,11 @@
+# This file has been generated using RevKit 2.3 (www.revkit.org)
+.version 2.0
+.numvars 3
+.variables x0 x1 x2
+.inputs i0 i1 i2
+.outputs o0 o1 o2
+.constants ---
+.garbage ---
+.begin
+stg3[1] x0 x1 x2
+.end

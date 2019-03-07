@@ -1,0 +1,51 @@
+qubits 5
+
+h q4
+cnot q2, q0
+cnot q2, q1
+cnot q0, q4
+tdag q1
+tdag q0
+t q4
+cnot q0, q1
+cnot q4, q1
+cnot q4, q0
+cnot q1, q4
+s q0
+t q0
+t q1
+tdag q4
+cnot q4, q0
+cnot q4, q1
+cnot q2, q1
+cnot q0, q4
+cnot q0, q1
+t q0
+cnot q1, q0
+cnot q4, q0
+cnot q4, q1
+cnot q1, q4
+s q4
+s q2
+s q1
+s q0
+cnot q2, q4
+cnot q1, q4
+cnot q0, q2
+cnot q0, q1
+cnot q2, q0
+cnot q2, q1
+cnot q4, q0
+cnot q4, q1
+cnot q4, q2
+s q4
+s q2
+cnot q0, q4
+cnot q0, q2
+h q0
+cnot q2, q4
+cnot q4, q2
+cnot q2, q4
+cnot q4, q0
+cnot q0, q4
+cnot q4, q0

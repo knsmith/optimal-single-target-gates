@@ -1,0 +1,188 @@
+qubits 6
+
+x q0
+h q5
+t q5
+tdag q0
+cnot q0, q5
+cnot q5, q1
+cnot q5, q0
+t q5
+t q0
+t q1
+cnot q0, q5
+cnot q1, q0
+cnot q5, q1
+cnot q5, q0
+x q0
+x q3
+h q1
+h q4
+cnot q1, q0
+cnot q4, q1
+cnot q0, q1
+cnot q0, q4
+x q1
+x q0
+x q4
+t q1
+t q0
+tdag q4
+cnot q0, q1
+cnot q4, q1
+cnot q0, q4
+cnot q1, q0
+cnot q4, q0
+cnot q2, q3
+s q0
+z q2
+s q5
+s q1
+z q3
+cnot q4, q0
+cnot q3, q2
+s q0
+z q4
+z q2
+x q1
+h q1
+cnot q3, q2
+cnot q1, q2
+cnot q1, q3
+x q3
+t q2
+t q1
+t q3
+cnot q1, q2
+cnot q3, q2
+cnot q1, q3
+cnot q2, q3
+cnot q2, q1
+t q2
+cnot q3, q2
+h q3
+cnot q4, q3
+cnot q0, q4
+cnot q4, q0
+cnot q3, q0
+cnot q3, q4
+t q0
+tdag q3
+tdag q4
+cnot q3, q0
+cnot q4, q0
+cnot q4, q3
+cnot q0, q3
+cnot q0, q4
+t q0
+cnot q4, q0
+cnot q3, q0
+h q3
+cnot q2, q1
+cnot q3, q1
+cnot q3, q2
+x q2
+t q1
+t q3
+t q2
+cnot q3, q1
+cnot q2, q1
+cnot q3, q2
+cnot q1, q2
+cnot q1, q3
+t q1
+cnot q2, q1
+x q5
+h q2
+h q0
+cnot q2, q5
+cnot q0, q2
+cnot q0, q4
+cnot q2, q4
+x q5
+t q0
+tdag q2
+tdag q4
+t q5
+cnot q5, q0
+cnot q5, q2
+cnot q2, q4
+cnot q0, q5
+cnot q0, q4
+t q2
+tdag q0
+cnot q5, q2
+cnot q5, q0
+cnot q2, q0
+s q0
+h q5
+cnot q4, q0
+cnot q5, q0
+cnot q0, q4
+tdag q4
+t q0
+cnot q0, q4
+cnot q5, q0
+cnot q4, q0
+cnot q5, q4
+s q5
+s q4
+cnot q4, q5
+cnot q5, q4
+h q0
+cnot q1, q3
+cnot q0, q3
+cnot q0, q1
+x q1
+t q3
+t q0
+t q1
+cnot q0, q3
+cnot q1, q3
+cnot q0, q1
+cnot q3, q1
+cnot q3, q0
+t q3
+cnot q1, q3
+h q1
+cnot q5, q1
+cnot q4, q5
+cnot q5, q4
+cnot q1, q4
+cnot q1, q5
+t q4
+tdag q1
+tdag q5
+cnot q1, q4
+cnot q5, q4
+cnot q1, q5
+cnot q4, q5
+cnot q4, q1
+t q4
+cnot q1, q4
+cnot q5, q4
+h q4
+h q5
+cnot q3, q0
+cnot q5, q0
+cnot q5, q3
+x q3
+t q0
+t q5
+t q3
+cnot q5, q0
+cnot q3, q0
+cnot q5, q3
+cnot q0, q3
+cnot q0, q5
+t q0
+cnot q3, q0
+h q3
+cnot q2, q0
+cnot q0, q2
+cnot q2, q0
+cnot q5, q3
+cnot q3, q5
+cnot q5, q1
+cnot q1, q5
+cnot q5, q1

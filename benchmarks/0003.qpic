@@ -1,0 +1,72 @@
+l0 W i0 o0
+l1 W i1 o1
+l2 W i2 o2
+l3 W i3 o3
+l4 W i4 o4
+l5 W h h
+l5 H
+l4 H
+l1 +l0
+l5 +l0
+l0 +l1
+l5 G {$T$}
+l0 G {$T$}
+l1 G {$T$}
+l2 G {$T^\dagger$}
+l0 +l5
+l1 +l5
+l4 +l2
+l0 +l1
+l5 +l1
+l5 +l0
+l4 G {$T$}
+l5 G {$T$}
+l2 G {$T$}
+l2 +l4
+l1 +l5
+l4 +l2
++l4
+l1 H
+l1 +l4
+l1 +l2
++l4
+l1 G {$T$}
+l2 G {$T^\dagger$}
+l4 G {$T$}
+l2 +l1
+l4 +l1
+l4 +l2
+l1 +l2
+l1 +l4
+l1 G {$T^\dagger$}
+l4 +l1
+l2 +l1
++l0
+l2 H
+l2 +l0
+l0 +l5
++l5
+l2 G {$T$}
+l0 G {$T$}
+l5 G {$T$}
+l0 +l2
+l5 +l2
+l0 +l5
+l2 +l5
+l2 +l0
+l2 G {$T$}
+l5 +l2
+l4 H
+l5 H
+l2 G {$S^\dagger$}
+l0 +l2
+l2 G {$S^\dagger$}
+l0 G {$S^\dagger$}
+l2 +l0
+l0 +l2
+l2 +l1
+l1 +l2
+l2 +l1
+l1 +l0
+l0 +l1
+l1 +l0
